@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Console', monospace;
+    background-image: linear-gradient(to right, #7F00FF 50%, #000000 100%);
+}
+/*START OF NAVIGATION*/
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidenav {
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.logo img {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.sidenav a {
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+}
+.sidenav a:hover {
+    background-image: linear-gradient(to bottom, #7F00FF 50%, #000000 100%);
+}
+.sidenav {
+    position: fixed;
+}
+.img_logo{
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.dropbtn {
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #555;
+    min-width: 190px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-image: linear-gradient(to bottom, #7F00FF 50%, #000000 100%);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*END OF NAVIGATION*/
+
+
+/*START OF HOME*/
+.img-container img{
+    height: 500px;
+    margin-left: 300px;
+    margin-top: 100px;
+    border: 30px solid #7F00FF 50%, #000000 100%;
+    border-radius: 50px;
+    box-shadow: 15px 15px #000000;
+}
+.hehe-container{
+    margin-left: 80px;
+    margin-top: 250px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+}
+.hehe-container h1{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+/*END OF HOME*/
+
+/*START OF ABOUT ME*/   
+.container {
+    display: flex;
+    margin-left: 130px;
+}
+
+.box {
+    flex: 2;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(60, 60, 60, 0.6);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 220px;
+}
+.container h2{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bolder;
+}
+.container p{
+    font-size: 16px;
+    color: #fff;
+    font-weight: bolder;
+}
+li{
+    color: #fff;
+}
+h4{
+    color: #fff;
+}
+
+/*END OF ABOUT ME*/
+
+/*START OF CONTACT*/
+.container_contacts{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 150px;
+}
+.fb_container img{
+    width: 300px;
+}
+.link_container img{
+    width: 300px;
+}
+.mail_container img{
+    width: 300px;
+}
+/*END OF CONTACT*/
+
+/*START OF RESUME*/
+.resume-container{
+    margin-left: 500px;
+    margin-top: 2px;
+}
+/*END OF RESUME*/
